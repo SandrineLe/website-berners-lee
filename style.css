@@ -1,0 +1,141 @@
+/* Body + P */
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; width: 80%;
+  margin: 5% auto;
+    background-color: #EBEBEB;
+}
+
+body p{    font-size:13.5px;
+  color:#7d7d7d;
+  font-weight:300;
+  line-height:1.6;
+text-align: justify;}
+
+/* Links */
+
+a{text-decoration: none;
+color:#ccc;}
+a:hover{text-decoration: none;}
+
+/******* Section *******/
+/* Main Section */
+
+section { position:relative;
+  background-color: white;
+border-radius:5px;
+box-shadow: 1px 1px 1px lightgrey;
+width:410px;
+text-align:center;}
+
+/* Bio */
+.bio {padding:30px;
+  margin: 0 auto;
+
+}
+.bio h1 {font-size:18px;
+font-weight:800;
+color:#dd5555;}
+
+.bio h2 {font-size:15px;
+font-weight:400;
+color:#7d7d7d;
+}
+.bio img {  border-radius: 50%;
+width:90px;
+border:3px solid #cccccc;}
+
+
+/* Social Media */
+.socialmedia {padding:30px;
+  margin: 2% auto;
+  font-size:25px;
+  color:#cccccc;
+  line-height:0.2;
+
+}
+
+
+.socialmedia p {text-align: center;
+  color:#cccccc;
+  font-size:13px;
+  line-height:1;
+}
+
+
+#socialmedia > li.sub ul {
+  list-style: none;
+
+}
+
+
+li{  	display: inline-block;
+	position: relative;
+	right: 7%;
+  padding:0 15px 0 15px;
+}
+
+
+
+/* Favorite movies */
+.favmovies {padding:30px;
+    margin: 2% auto;
+
+}
+
+.favmovies p {
+  font-size:13px;
+  line-height:1.5;
+}
+
+table, th, td {
+padding:1px;
+text-align: center;}
+
+.favmovies img{
+width:80px;
+padding:5px 15px 5px 15px;
+}
+
+.favmovies h2 {font-size:15px;
+font-weight:400;
+color:#7d7d7d;
+}
+
+.favmovies h3 {font-size:14px;
+font-weight:600;
+text-align:center;
+color:#7d7d7d;
+}
+
+
+
+
+
+/* Button Bio */
+.button {font-size:13px;
+  background-color: #dd5555;
+  border: 2px solid transparent;
+  color: white;
+  border-radius:3px;
+  padding: 8px 12px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: nonce;
+  transition-duration: 0.4s;
+
+
+}
+
+.button:hover {font-size:13px;
+  background-color: white;
+  border: 2px solid #dd5555;
+  color: #dd5555;
+  border-radius:3px;
+  padding: 8px 12px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: nonce;
+  transition-duration: 0.4s;
+
+}
