@@ -19,20 +19,12 @@ a{
   color:#ccc;}
 a:hover{text-decoration: none;}
 
-
-/* Container */
-.container {
-display: flex;
-justify-content: center;}
-
 /******* Section *******/
 /* Main Section */
 
-section {box-sizing: border-box;
+  section {box-sizing: border-box;
   width: 35vw;
-
-
-background-color: white;
+  background-color: white;
 border-radius:5px;
 box-shadow: 1px 1px 1px lightgrey;
 -webkit-box-shadow:1px 1px 1px lightgrey;
@@ -74,9 +66,13 @@ border:3px solid #cccccc;}
   line-height:1;
 }
 
+.socialmedia a:hover {
+  color:#dd5555;
+
+}
 
 .socialmedia > li.sub ul {
-   display:table;
+   display:inline-block;
    text-align: center;
    list-style: none;
    float: left;
@@ -111,7 +107,6 @@ padding-left:0;
 
 .favmovies p {
   font-size:13px;
-  line-height:1.5;
 }
 
 table, th, td {
@@ -121,9 +116,7 @@ overflow-x:auto;}
 
 .favmovies img{
 width:80px;
-padding:5px 15px 5px 15px;
-max-width: 100%:
-
+padding: 5px 15px 5px 15px;
 }
 
 .favmovies h2 {font-size:15px;
@@ -136,6 +129,21 @@ font-weight:600;
 text-align:center;
 color:#7d7d7d;
 }
+
+
+
+.flex_container {
+  display: flex;
+  width: 100%;
+}
+.flex_item_left {
+  width: 110px;
+}
+.flex_item_right {
+  flex: 1;
+}
+
+
 
 
 
